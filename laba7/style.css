@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FBF7F7;
+}
+
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text_block{
+    width: 80%;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 2%;
+    padding: 2%;
+    max-width: 100%;
+    background-color: #FCDDB0;
+}
+
+.data{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+    padding: 2%;
+    max-width: 45%;
+    background-color: #FF9F9F;
+}
+
+.description {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    background-color: #FF9F9F;
+    min-width: 20%;
+}
+
+.info_block{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+    padding: 3%;
+    background-color: #FCDDB0;
+}
+
+.buttons_block{
+    margin-left: 2%;
+    margin-top: 2%;
+    align-self: center;
+}
+
+.cute_buttons, .infoButton, .resetButton{
+    /*margin-left: 5px;*/
+    display: inline-block;
+    outline: 0;
+    cursor: pointer;
+    text-align: center;
+    border: 1px solid #E97777;
+    padding: 7px 16px;
+    min-height: 50px;
+    min-width: 50px;
+    color: #202223;
+    background: #E97777;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 0px 0px;
+    :hover {
+        background: #f6f6f7;
+        outline: 1px solid transparent;
+    }             
+}
+
+.infoButton{
+    background: #FFF5E4;
+    font-size: 14px;
+    border: 1px solid #FFF5E4;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+aside{
+    margin-top: 2%;
+    margin-left: 2%;
+    max-width: 200px;    
+    width: 15%;
+    padding: 20px;
+}
+
+aside h1{
+    text-align: center;
+}
+
+.log{
+    text-align: center;
+    color: mediumslateblue;
+    animation: blink 1s linear 0s infinite;
+}
+
+.info img{
+    margin: 0 auto;
+}
+
+@keyframes blink {
+  from {
+    color: mediumslateblue;
+  }
+  to {
+    color: mediumslateblue;
+  }
+  33% {
+    color: white;
+  }
+  66% {
+    color: #ff9f93;
+  }
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>33333</title>
+    <link rel="stylesheet" href="main.css">
+    <style type="text/css">
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Laptops</h1>
+    </header>
+
+    <div class="wrapper">
+        <nav id="nav_dec">
+            <a href="index.html">Main page</a>
+        </nav>
+
+        <article class="main_width">
+            <form class="quiz">
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" class="fname" name="fname" placeholder="Your name"><br><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" class="lname" name="lname" placeholder="Your surname"><br><br>
+                <input type="hidden" id="custId" name="custId" value="3487">
+
+                <label for="email">Your email:</label><br>
+                <input type="email" id="email" class="email" name="email" placeholder="Your email"><br><br>
+            
+                <label for="current_laptop">Which laptop brand do you currently use?</label><br>
+                <select class="current_laptop" id="current_laptop" name="current_laptop">
+                    <option value="Asus">Asus</option><br>
+                    <option value="Acer">Acer</option><br>
+                    <option value="iBall">iBall</option><br>
+                    <option value="HP">HP</option><br>
+                    <option value="MSI">MSI</option><br>
+                    <option value="Dell">Dell</option><br>
+                    <option value="Alienware">Alienware</option><br>
+                    <option value="Micromax">Micromax</option><br>
+                    <option value="Lenovo">Lenovo</option><br>
+                    <option value="Microsoft">Microsoft</option><br>
+                    <option value="Apple">Apple</option><br>
+                    <option value="LG">LG</option><br>
+                    <option value="Other">Other</option><br>
+                </select><br><br>
+
+                <label> How long has it been since your current laptop was bought?</label><br>
+                <label for="one"> <input type="radio" class="radio" name="radio" value="Less than 6 months" required>Less than 6 months</label><br>
+                <label for="two"><input type="radio" class="radio" name="radio" value="6 months - 1 year" required>6 months - 1 year</label><br>
+                <label for="three"><input type="radio" class="radio" name="radio" value="1 year - 3 years" required>1 year - 3 years</label><br>
+                <label for="four"><input type="radio" class="radio" name="radio" value="More than 3 years" required>More than 3 years</label>><br><br>
+                
+                <label>From the list below, pick the top 3 factors you will look for, when you buy your next laptop.</label><br>
+                <div class="checkbox_styling">
+                <input type="checkbox" id="top1" class="top" name="top1" value="Keyboard quality">
+                <label for="top1">Keyboard quality (feedback, back-lit, etc)</label><br>
+                <input type="checkbox" id="top2" class="top" name="top2" value="Build quality">
+                <label for="top2">Build quality</label><br>
+                <input type="checkbox" id="top3" class="top" name="top3" value="Size & weight">
+                <label for="top3">Size & weight</label><br>
+                <input type="checkbox" id="top4" class="top" name="top4" value="Colour & design">
+                <label for="top4">Colour & design</label><br>
+                <input type="checkbox" id="top5" class="top" name="top5" value="Screen/Display quality">
+                <label for="top5">Screen/Display quality</label><br>
+                <input type="checkbox" id="top6" class="top" name="top6" value="Security features">
+                <label for="top6">Security features</label><br>
+                <input type="checkbox" id="top7" class="top" name="top7" value="Core Performance specs">
+                <label for="top7">Core Performance specs (Processor, RAM, GFX & Storage speeds)</label><br>
+                <input type="checkbox" id="top8" class="top" name="top8" value="Battery life">
+                <label for="top8">Battery life</label><br>
+                <input type="checkbox" id="top9" class="top" name="top9" value="Laptop brand">
+                <label for="top9">Laptop brand</label><br>
+                <input type="checkbox" id="top10" class="top" name="top10" value="Sound quality">
+                <label for="top10">Sound quality</label>
+                <br><br>
+                </div>
+
+                <label for="textarea"><b>Do you have any suggestions?</b></label><br><br>
+                <p><textarea rows="10" cols="45" class="page_textarea" name="textarea"></textarea></p><br>
+
+
+                <input class="cute_buttons" type="submit" value="Submit">
+                <input class="cute_buttons" type="reset" value="Reset">
+            </form> 
+        </article>
+
+        <aside id="aside_dec"><a>Results</a></aside>
+    </div>
+
+    <footer>
+        <h2>Thank you for partisipating!</h2>
+    </footer>
+
+    <div class="modal">
+        <h1>Results</h1>
+        <table>
+        </table>
+
+        <!-- <div class="styleForTable">
+            <h3>Table style</h3>
+
+            <div class="borderWidth">
+                <label>Ширина границы: </label>
+                <input type="number" class="widthOfBorder">
+                <label>px</label>
+            </div>
+
+            <div class=tableStyle>
+                <label>Вид границы: </label>
+                <select class="typeOfBorder" name="border">
+                    <option value="none">Отсутсвует</option>
+                    <option value="solid">Сплошная</option>
+                    <option value="dashed">Пунктирная</option>
+                    <option value="dotted">Точкой</option>
+                    <option value="double">Двойная</option>
+                </select>
+                
+            </div>
+
+            <div>
+                <label class="colorOfBorder">Цвет границы:</label>
+               <input type="color" class="borderColor">
+            </div>
+        </div> -->
+
+        <div class="result_exit">&#10006;</div> 
+
+        <div class="registred">Registered entryes:</div>
+        <ol></ol>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html> 

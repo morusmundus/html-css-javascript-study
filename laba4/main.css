@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: #9F73AB;
+}
+
+header{
+    background-color: #1F1D36;
+    width: 100%;
+    height: 10vh;
+    padding: 20px;
+}
+
+header > h1{
+    font-weight: bold;
+    text-align: center;
+    color: #EDEDED;
+}
+
+#nav_dec {
+    width: 15%;
+    height: 800px;
+    background-color:  #543864;
+    display: flex;
+    flex-direction: row;
+
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+
+    padding: 20px;
+}
+
+.main_width{
+    min-height: 800px;
+    width: 70%;
+}
+
+.quiz {
+    flex-direction: column;
+    font-size: 18px;
+    padding: 30px;
+    line-height: 1.2;
+    border-radius: 5px;
+    
+    text-align: center;
+    color: #EDEDED;
+    text-shadow: -1px 0 #543864, 0 1px #543864, 1px 0 #543864, 0 -1px #543864;
+  }
+
+
+.current_laptop, .input_value{
+    width: 40%;
+    height: 30px;
+    border-radius: 5px;
+    border-color: rgb(34, 31, 137);
+}
+
+#aside_dec{
+    width: 15%;
+    height: 800px;
+    background-color:  #543864;
+    padding: 20px;
+    text-align: center;
+}
+
+footer{
+    background-color: #1F1D36;
+    width: 100%;
+    height: 10vh;
+    padding: 20px;
+}
+
+footer > h2{
+    text-align: center;
+    color: #EDEDED;
+}
+
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.delete_button_1, .add_button_2, .out_button_3{
+    display: inline-block;
+    outline: 0;
+    cursor: pointer;
+    text-align: center;
+    border: 1px solid #babfc3;
+    padding: 7px 16px;
+    min-height: 36px;
+    min-width: 36px;
+    color: #202223;
+    background: #ffffff;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 14px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 0px 0px;
+    :hover {
+        background: #f6f6f7;
+        outline: 1px solid transparent;
+    }             
+}
+
+.results{
+    font-size: 18px;
+    padding: 30px;
+    text-align: center;
+    color: #EDEDED;
+    text-shadow: -1px 0 #543864, 0 1px #543864, 1px 0 #543864, 0 -1px #543864;
+
+    visibility: hidden;
+}
+table{
+    width:70%; 
+    margin-left:15%; 
+    margin-right:15%;
+}
+

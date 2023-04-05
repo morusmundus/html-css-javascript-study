@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>555555555555</title>
+        <link rel="stylesheet" href="main.css" />
+    </head>
+    <body>
+        <div class="wrapper"> 
+            <form class="main">
+                <h1>New tool input</h1>
+                <div class="inputs">
+                    <p>Name: <input class="data1" type="text" required></p><br>
+                    <p>Purpose: <input class="data2" type="text" required></p><br>
+                    <p>Weight: <input type="number" class="data3" min = "100" required></p><br>
+                    <p>Price: <input type="number" class="data4" min = "100" required></p><br>
+                    <p class="blockForNewProps"></p><br>
+                </div>
+                
+                <div class="btn_reset_submit">
+                    <input id = "addInfo" type="button" class="cute_buttons" value="Add">
+                    <input id = "clear" type="reset" class="cute_buttons" value="Reset">
+                </div>
+
+                <hr class="new">
+                
+                <div class="add_span">
+                    <input type="button" class="cute_buttons" id="min" value="Tool with min weight">
+                    <span class="span"></span>
+                </div>
+
+                <div class="add_new_prop">
+                    <label for="new_prop">Add new field in table</label><br>
+                    <input id="new_prop" type="text">
+                    <input id="add_prop_btn" class="cute_buttons" type="button" value="Add">
+                </div>
+
+                <div class="delete_block">
+                    <label for="select_del">Delete a tool info</label>
+                    <select id="select_del"><br>
+                    <input id="delete_btn" class="cute_buttons" type="button" value="Delete">
+                </div>
+
+                <div class="show">
+                    <input id="show" type="button" class="cute_buttons" value="Table">
+                </div>
+            </form>
+
+            <div class="data_table">
+                <table id="tools">
+                    <tbody id="tbody">
+                        <tr id="TableHeader">
+                            <th>ID</th>
+                            <th>Tool name</th>
+                            <th>Purpose</th>
+                            <th>Weight</th>
+                            <th>Price</th>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <script src="main.js"></script>
+    </body>
+   
+</html>

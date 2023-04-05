@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    box-sizing: border-box;
+ 
+}
+
+body{
+    background-color: #E1FFEE;
+}
+
+.main{
+  margin-top: 3%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 7%;
+  padding: 3%;
+  border-right: 3px solid black;
+  background-color: #BCEAD5 ;
+}
+
+hr.new {
+  border: 1px solid black;
+  margin-bottom: 7px;
+}
+
+.inputs{
+  margin-top: 20px;
+}
+
+.data1, .data2, .data3, .data4, .data5{
+  margin-bottom: 10px;
+  border-radius: 2px;
+  max-width: 45%;
+}
+
+.btn_reset_submit{
+  margin-top: 7px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 7px;
+}
+
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+input[type="button"]:hover, input[type="submit"]:hover, input[type="reset"]:hover {
+  background-color: #8EC3B0;
+  color: #f7fcfc;
+}
+
+input[type="submit"]{
+  margin-right: 10px;
+  background-color: #DEF5E5;
+}
+
+.cute_buttons{
+    margin-left: 5px;
+    display: inline-block;
+    outline: 0;
+    cursor: pointer;
+    text-align: center;
+    border: 1px solid #babfc3;
+    padding: 7px 16px;
+    min-height: 36px;
+    min-width: 36px;
+    color: #202223;
+    background: #ffffff;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 14px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 0px 0px;
+    :hover {
+        background: #f6f6f7;
+        outline: 1px solid transparent;
+    }             
+}
+
+.add_span, .delete_block, .show{
+  margin-bottom: 10px;
+}
+
+.data_table{
+  margin-left: 10%;
+  margin-top: 3%;
+}
+
+table{
+  border-collapse: collapse;
+  width: 60%;
+}
+
+table th, table td{
+  border: 1px solid black;
+  padding: 10px;
+}
+
+#TableHeader{
+    background-color: #BCEAD5 ;
+    border: 2px solid black;
+}
